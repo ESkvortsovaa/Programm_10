@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using BL;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,9 +11,9 @@ using Utils;
 
 namespace Task10_Example
 {
-    public partial class MainWindow : Form
+    public partial class Form1 : Form
     {
-        public MainWindow()
+        public Form1()
         {
             InitializeComponent();
         }
@@ -24,17 +23,28 @@ namespace Task10_Example
             DataGridViewUtils.InitGridForArr(InputStudentsDGV, 40, false, true, true, true, false);
         }
 
-        private void SortStudentsBtn_Click(object sender, EventArgs e)
+        private void execute_Click(object sender, EventArgs e)
         {
-            try
+            if (grants.Text.Length < 1)
             {
-                List<Student> students = StudentsDGVConvert.DGVToStudentsList(InputStudentsDGV);
-                StudentsDGVConvert.StudentsListToDGV(InputStudentsDGV, StudentsSorter.Sort(students));
+                MessageBox.Show("Введите количество грантов");
+                return;
             }
-            catch (Exception ex)
+
+            int count = grid.Rows.Count - 1;
+
+            Students students = new Students();
+
+            for (int i = 0; i != count; i++)
             {
-                MessagesUtils.ShowError("Произошла ошибка!");
+                students.People.Add(new Student(grid[0, i].Value.ToString(), int.Parse(grid[1, i].Value.ToString()), int.Parse(grid[2, i].Value.ToString()), int.Parse(grid[3, i].Value.ToString())));
             }
+
+            List<Student> res = students.SortedGrants(int.Parse(grants.Text));
+
+            string result = "";
+            foreach (Student i in res) result += i.ToString() + Environment.NewLine;
+            MessageBox.Show(result);
         }
 
         private void MainMenuFileOpen_Click(object sender, EventArgs e)
@@ -46,7 +56,7 @@ namespace Task10_Example
                     string path = OpenFileDialog.FileName;
 
                     List<Student> studentsList = StudentsFilesUtils.ReadStudentsListFromFile(path);
-                    StudentsDGVConvert.StudentsListToDGV(InputStudentsDGV, studentsList);
+                   // StudentsDGVConvert.StudentsListToDGV(InputStudentsDGV, studentsList);
 
                     MessagesUtils.ShowMessage("Данные загружены из файла");
                 }

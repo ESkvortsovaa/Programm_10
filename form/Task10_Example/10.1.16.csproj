@@ -45,11 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="StudentsFilesUtils.cs" />
     <Compile Include="Utils\MessagesUtils.cs" />
-    <Compile Include="Student.cs" />
-    <Compile Include="StudentsDGVConvert.cs" />
-    <Compile Include="StudentsSorter.cs" />
     <Compile Include="Utils\DataGridViewUtils.cs" />
     <Compile Include="MainWindow.cs">
       <SubType>Form</SubType>
@@ -83,6 +79,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BL\BL.csproj">
+      <Project>{68abe92d-f2af-496d-ab95-756592c43321}</Project>
+      <Name>BL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
