@@ -1,0 +1,9 @@
+C:\Users\Admin\Desktop\10\Console\Task10_Example_Cli\bin\Debug\Task10_Example_Cli.exe.config
+C:\Users\Admin\Desktop\10\Console\Task10_Example_Cli\bin\Debug\Task10_Example_Cli.exe
+C:\Users\Admin\Desktop\10\Console\Task10_Example_Cli\bin\Debug\Task10_Example_Cli.pdb
+C:\Users\Admin\Desktop\10\Console\Task10_Example_Cli\bin\Debug\ProgramLogic.dll
+C:\Users\Admin\Desktop\10\Console\Task10_Example_Cli\bin\Debug\ProgramLogic.pdb
+C:\Users\Admin\Desktop\10\Console\Task10_Example_Cli\obj\Debug\Task10_Example_Cli.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\10\Console\Task10_Example_Cli\obj\Debug\Task10_Example_Cli.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\10\Console\Task10_Example_Cli\obj\Debug\Task10_Example_Cli.exe
+C:\Users\Admin\Desktop\10\Console\Task10_Example_Cli\obj\Debug\Task10_Example_Cli.pdb

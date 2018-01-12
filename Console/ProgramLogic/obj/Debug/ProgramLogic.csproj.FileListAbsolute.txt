@@ -1,0 +1,6 @@
+C:\Users\Admin\Desktop\10\Console\ProgramLogic\bin\Debug\ProgramLogic.dll
+C:\Users\Admin\Desktop\10\Console\ProgramLogic\bin\Debug\ProgramLogic.pdb
+C:\Users\Admin\Desktop\10\Console\ProgramLogic\obj\Debug\ProgramLogic.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\10\Console\ProgramLogic\obj\Debug\ProgramLogic.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\10\Console\ProgramLogic\obj\Debug\ProgramLogic.dll
+C:\Users\Admin\Desktop\10\Console\ProgramLogic\obj\Debug\ProgramLogic.pdb

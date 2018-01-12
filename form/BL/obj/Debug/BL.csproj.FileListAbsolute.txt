@@ -1,6 +1,0 @@
-C:\Users\sanekandreev21\Desktop\HTML\form\BL\bin\Debug\BL.dll
-C:\Users\sanekandreev21\Desktop\HTML\form\BL\bin\Debug\BL.pdb
-C:\Users\sanekandreev21\Desktop\HTML\form\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
-C:\Users\sanekandreev21\Desktop\HTML\form\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
-C:\Users\sanekandreev21\Desktop\HTML\form\BL\obj\Debug\BL.dll
-C:\Users\sanekandreev21\Desktop\HTML\form\BL\obj\Debug\BL.pdb

@@ -1,0 +1,12 @@
+C:\Users\Admin\Desktop\10\Console\Task10_Example\bin\Debug\Task10_Example.exe.config
+C:\Users\Admin\Desktop\10\Console\Task10_Example\bin\Debug\Task10_Example.exe
+C:\Users\Admin\Desktop\10\Console\Task10_Example\bin\Debug\Task10_Example.pdb
+C:\Users\Admin\Desktop\10\Console\Task10_Example\bin\Debug\ProgramLogic.dll
+C:\Users\Admin\Desktop\10\Console\Task10_Example\bin\Debug\ProgramLogic.pdb
+C:\Users\Admin\Desktop\10\Console\Task10_Example\obj\Debug\Task10_Example.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\10\Console\Task10_Example\obj\Debug\Task10_Example.MainWindow.resources
+C:\Users\Admin\Desktop\10\Console\Task10_Example\obj\Debug\Task10_Example.Properties.Resources.resources
+C:\Users\Admin\Desktop\10\Console\Task10_Example\obj\Debug\Task10_Example.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\10\Console\Task10_Example\obj\Debug\Task10_Example.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\10\Console\Task10_Example\obj\Debug\Task10_Example.exe
+C:\Users\Admin\Desktop\10\Console\Task10_Example\obj\Debug\Task10_Example.pdb
